@@ -1,0 +1,19 @@
+public class EjemploPracticaAnalizador{
+    , . >=
+    public static void main(String[]args){
+        short dato = 12A12;
+        double PI = 3.1416, CteGrav = -6.67E-.19;
+        float prom = (float) 0.0;
+        double va&l;*/
+        /*comentario*/
+        //comentario
+       double pot = 7.34E+1.46;
+        val = CteGrav * dato * pot;
+        int hexa;
+        
+        hexa = 0xAxB;
+       
+        System.out.println ( "cadenas" hexa * 123.4.3 ) ;
+       dato = 06789;
+    }
+}
