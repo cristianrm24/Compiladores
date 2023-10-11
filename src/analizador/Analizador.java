@@ -9,7 +9,7 @@ public class Analizador {
 
  public static void main(String[] args) {
      
- 
+     Scanner scan=new Scanner(System.in);
      String  archivo; //"C:\\Users\\chequ\\OneDrive\\Documentos\\NetBeansProjects\\Analizador\\src\\analizador\\prueba.txt"
 
 	 System.out.println("Introduce el path de tu documento");
