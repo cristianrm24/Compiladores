@@ -9,8 +9,11 @@ public class Analizador {
 
  public static void main(String[] args) {
      
- 
-     String  archivo= "C:\\Users\\chequ\\OneDrive\\Documentos\\NetBeansProjects\\Analizador\\src\\analizador\\prueba.txt"; 
+     Scanner scan=new Scanner(System.in);
+     String  archivo; //"C:\\Users\\chequ\\OneDrive\\Documentos\\NetBeansProjects\\Analizador\\src\\analizador\\prueba.txt"
+
+	 System.out.println("Introduce el path de tu documento");
+	archivo=scan.nextLine();
    
      try (BufferedReader br = new BufferedReader(new FileReader(archivo))) {
             String linea;
