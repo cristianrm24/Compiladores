@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import analizador.AFD;
+import java.util.Scanner;
 
 public class Analizador {
 
